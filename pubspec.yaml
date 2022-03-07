@@ -30,6 +30,8 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.0.13
+  mockito: ^5.1.0
+ 
 
 
 
