@@ -31,7 +31,8 @@ dependencies:
     sdk: flutter
   shared_preferences: ^2.0.13
   mockito: ^5.1.0
-  device_info_plus: ^3.2.1
+  device_info_plus: ^3.2.2
+ 
  
 
 
