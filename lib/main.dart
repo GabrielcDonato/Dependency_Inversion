@@ -1,3 +1,4 @@
+import 'package:dependency_inversion/core/local_storage/local_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -26,7 +27,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/home_page',
       routes: {
-        '/home_page': (routes) => const HomePage(),
+        '/home_page': (routes) => HomePage(
+              localStorage: LocalStorage(preferences: preferences),
+            ),
       },
     );
   }
